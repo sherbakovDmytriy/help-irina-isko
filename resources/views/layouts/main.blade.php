@@ -33,18 +33,17 @@
 
 <header>
     <ul class="header-list">
-        <li>
-            <a href="{{ env('APP_URL') . '#top' }}" class="header-list__item">Главная</a>
-        </li>
-        <li>
-            <a href="{{ env('APP_URL') . '#main-form' }}" class="header-list__item">Реквизиты</a>
-        </li>
-        <li>
-            <a href="{{ env('APP_URL') . '#info' }}" class="header-list__item">Контакты</a>
-        </li>
-        <li>
-            <a href="{{ url('/blog') }}" class="header-list__item">Блог</a>
-        </li>
+        @if(url()->current() == env('APP_URL'))
+            <li><a href="#top" class="header-list__item">Главная</a></li>
+            <li><a href="#main-form" class="header-list__item">Реквизиты</a></li>
+            <li><a href="#info" class="header-list__item">Контакты</a></li>  
+        @else
+            <li><a href="{{ env('APP_URL') . '#top' }}" class="header-list__item">Главная</a></li>
+            <li><a href="{{ env('APP_URL') . '#main-form' }}" class="header-list__item">Реквизиты</a></li>
+            <li><a href="{{ env('APP_URL') . '#info' }}" class="header-list__item">Контакты</a></li>
+        @endif
+        
+        <li><a href="{{ url('/blog') }}" class="header-list__item">Блог</a></li>
     </ul>
 
     <div class="form-group">
