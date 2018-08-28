@@ -1,47 +1,11 @@
-<!DOCTYPE html>
-<html lang="ru">
+@extends('layouts.main')
 
-<head>
-    <meta charset="utf-8">
-    <title>Help Irina Isko</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-    <meta property="og:image" content="path/to/image.jpg">
-   
-    <meta name="theme-color" content="#000">
-    <meta name="msapplication-navbutton-color" content="#000">
-    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+@section('title')
+    <title>Статья</title>
+@stop
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic-ext" rel="stylesheet">
-    <link href="css/bootstrap.min.css" media="screen, projection" rel="stylesheet" type="text/css">
-    <link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-</head>
-
-<body>
-
-<header>
-    <ul class="header-list">
-        <li><a href="#top" class="header-list__item">Главная</a></li>
-        <li><a href="#main-form" class="header-list__item">Реквизиты</a></li>
-        <li><a href="#info" class="header-list__item">Контакты</a></li>    
-    </ul>
-
-    <div class="form-group">
-        <select class="form-control" id="exampleFormControlSelect1">
-            <option id="lang-ru">Русский</option>
-            <option id="lang-ua">Українська</option>
-            <option id="lang-en">English</option>
-        </select>
-    </div>
-</header>
+@section('body')
 
 <section class="top content content_sm" id="top">
     <div class="top__image"><img src="img/1.jpg" alt="" width="100%"></div>
@@ -129,15 +93,15 @@
         <ul class="contacts-list list_inline">
             <li class="contacts-list__item" data-toggle="modal" data-target="#banking1">
                 <div class="icon-border"><span class="sign">₴</span></div>
-                <span class="banking-link">1) В гривне</span>
+                <span class="banking-link">В гривне</span>
             </li>
             <li class="contacts-list__item" data-toggle="modal" data-target="#banking2">
                 <div class="icon-border"><span class="sign">$</span></div>
-                <span class="banking-link">2) У долларах</span>
+                <span class="banking-link">В долларах</span>
             </li>
             <li class="contacts-list__item" data-toggle="modal" data-target="#banking3">
                 <div class="icon-border"><span class="sign">€</span></div>
-                <span class="banking-link">3) В євро</span>
+                <span class="banking-link">В євро</span>
             </li>
         </ul>
     </form>
@@ -256,20 +220,23 @@
         </div>
     </div>
 </div>
-</body>
-</html>
 
-<script>
-    $(document).ready(function() {
-        $(".header-list__item").click(function() {
-            $("html, body").animate({
-                scrollTop: $($(this).attr("href")).offset().top + "px"
-            }, {
-                duration: 800,
-                easing: "swing"
+@stop
+
+@section('scripts')
+
+    <script>
+        $(document).ready(function() {
+            $(".header-list__item").click(function() {
+                $("html, body").animate({
+                    scrollTop: $($(this).attr("href")).offset().top + "px"
+                }, {
+                    duration: 800,
+                    easing: "swing"
+                });
+                return false;
             });
-            return false;
         });
-    });
-</script>
-<script src="js/langs.js"></script>
+    </script>
+
+@stop

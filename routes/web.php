@@ -1,7 +1,9 @@
 <?php
 
 
-Route::get('/', "");
+Route::get('/', "MainController@index");
+Route::get('/blog', "MainController@blog");
+Route::get('/article/{id}', "MainController@article");
 
 // Admin panel
 
