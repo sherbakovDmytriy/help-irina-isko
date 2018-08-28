@@ -34,13 +34,13 @@
 <header>
     <ul class="header-list">
         <li>
-            <a href="{{ url('#top') }}" class="header-list__item">Главная</a>
+            <a href="{{ env('APP_URL') . '#top' }}" class="header-list__item">Главная</a>
         </li>
         <li>
-            <a href="{{ url('#main-form') }}" class="header-list__item">Реквизиты</a>
+            <a href="{{ env('APP_URL') . '#main-form' }}" class="header-list__item">Реквизиты</a>
         </li>
         <li>
-            <a href="{{ url('#info') }}" class="header-list__item">Контакты</a>
+            <a href="{{ env('APP_URL') . '#info' }}" class="header-list__item">Контакты</a>
         </li>
         <li>
             <a href="{{ url('/blog') }}" class="header-list__item">Блог</a>

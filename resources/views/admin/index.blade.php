@@ -7,5 +7,8 @@
         <a href="{{url('admin/post')}}">
             <button id="blogBtn" name="add-new-btn" class="add-new-btn">Управление блогом</button>
         </a>
+        <a href="{{url('admin/logout')}}">
+            <button id="blogBtn" name="add-new-btn" class="add-new-btn">Выйти</button>
+        </a>
     </div>
 @stop

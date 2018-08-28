@@ -1,5 +1,6 @@
 <?php
 
+Auth::routes();
 
 Route::get('/', "MainController@index");
 Route::get('/blog', "MainController@blog");
@@ -11,7 +12,8 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function (){
     Route::get('/', 'Admin\IndexController@index');
 
     /* Блог */
-    Route::group(['prefix' => 'post'], function (){
+    Route::group(['prefix' => 'post'], function ()
+    {
         Route::get('/', 'Admin\PostController@index');
 
         Route::get('/add', 'Admin\PostController@addIndex');
@@ -23,14 +25,14 @@ Route::group(['prefix' => 'admin', 'middleware' => 'auth'], function (){
         Route::post('/delete', 'Admin\PostController@delete');
 
         // Корзина блога
-        Route::group(['prefix' => 'basket'], function (){
+        Route::group(['prefix' => 'basket'], function ()
+        {
             Route::get('/', 'Admin\PostController@basketIndex');
             Route::post('/delete', 'Admin\PostController@basketDelete');
             Route::post('/recover', 'Admin\PostController@basketRecover');
             Route::post('/clear', 'Admin\PostController@basketClear');
         });
     });
-});
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+    Route::get('/logout', 'Auth\LoginController@logout');
+});
