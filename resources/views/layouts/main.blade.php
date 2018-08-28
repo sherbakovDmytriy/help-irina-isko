@@ -38,7 +38,7 @@
             <li><a href="#main-form" class="header-list__item">Реквизиты</a></li>
             <li><a href="#info" class="header-list__item">Контакты</a></li>  
         @else
-            <li><a href="{{ env('APP_URL') . '#top' }}" class="header-list__item">Главная</a></li>
+            <li><a href="{{ env('APP_URL') }}" class="header-list__item">Главная</a></li>
             <li><a href="{{ env('APP_URL') . '#main-form' }}" class="header-list__item">Реквизиты</a></li>
             <li><a href="{{ env('APP_URL') . '#info' }}" class="header-list__item">Контакты</a></li>
         @endif
