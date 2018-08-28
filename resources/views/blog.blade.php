@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-    <title>Статья</title>
+    <title>Блог</title>
 @stop
 
 
