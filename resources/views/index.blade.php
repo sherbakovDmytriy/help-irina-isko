@@ -25,19 +25,23 @@
 </section>
 
 <section class="main-form content content_sm" id="main-form">
-    <h2 class="section__header">Реквизиты</h2>
+    <h2 class="section__header" id="text5">Реквизиты</h2>
     
     <form>
+        <span style="margin-left: 40%;">
+            <a href="{{ asset('img/docs/Реквізити картки для грн.jpg') }}" target="blank" id="text6">Реквизиты карты для грн</a>
+        </span>
+        <br><br>
         <!-- <h2 id="text6">Vix et vocibus suavitate incorrupte, elitr labitur vix ex</h2> -->
-        <div class="form-group">
+        <!-- <div class="form-group">
             <div class="text-row">
-                <span id="text7">Нужно собрать:</span>
+                <span id="text6">Нужно собрать:</span>
                 <span>179 000 грн</span>
             </div>
             <div class="progress">
                 <div class="progress-bar bg-success" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-        </div>
+        </div> -->
 
         <!-- <div class="form-group">
             <div class="form-offertory">
@@ -77,7 +81,7 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <p id="text13">
+                        <p id="text7">
                             BENEFICIARY: ISKO OLHA, 03058, Ukraine, c. Kyiv, st. Borshchahivska
                             IBAN: UA393052990005168745013013153
                             ACCOUNT: 5168745013013153
@@ -93,68 +97,63 @@
         <ul class="contacts-list list_inline">
             <li class="contacts-list__item" data-toggle="modal" data-target="#banking1">
                 <div class="icon-border"><span class="sign">₴</span></div>
-                <span class="banking-link">В гривне</span>
+                <span class="banking-link" id="text8">В гривне</span>
             </li>
             <li class="contacts-list__item" data-toggle="modal" data-target="#banking2">
                 <div class="icon-border"><span class="sign">$</span></div>
-                <span class="banking-link">В долларах</span>
+                <span class="banking-link" id="text9">В долларах</span>
             </li>
             <li class="contacts-list__item" data-toggle="modal" data-target="#banking3">
                 <div class="icon-border"><span class="sign">€</span></div>
-                <span class="banking-link">В євро</span>
+                <span class="banking-link" id="text10">В євро</span>
             </li>
         </ul>
     </form>
 </section>
 
 <section class="info content content_sm" id="info">
-    <h2 class="section__header">Контакты</h2>
+    <h2 class="section__header" id="text11">Контакты</h2>
 
     <div class="flex flex_between">
         <div class="documents panel-bordered">
-            <h2 id="text14">Документы</h2>
+            <h2 id="text12">Документы</h2>
 
             <ul class="document-list">
                 <li class="document-list__item" >
-                    <a href="img/docs/Виписка з лікарні_1.jpg" target="blank"  id="text15">
+                    <a href="{{ asset('img/docs/Виписка з лікарні_1.jpg') }}" target="blank"  id="text13">
                         Выписка из больницы 1
                     </a>
                 </li>
                 <li class="document-list__item">
-                    <a href="img/docs/Виписка з лікарні_2.jpg" target="blank" id="text16">
+                    <a href="{{ asset('img/docs/Виписка з лікарні_2.jpg') }}" target="blank" id="text14">
                         Выписка из больницы 2
                     </a>
                 </li>
                 <li class="document-list__item">
-                    <a href="img/docs/КТ_головного мозку.jpg" target="blank" id="text17">
+                    <a href="{{ asset('img/docs/КТ_головного мозку.jpg') }}" target="blank" id="text15">
                         КТ головного мозга
                     </a>
                 </li>
                 <li class="document-list__item">
-                    <a href="img/docs/КТ_органів_черевної_порожнини_1.jpg" target="blank" id="text18">
+                    <a href="{{ asset('img/docs/КТ_органів_черевної_порожнини_1.jpg') }}" target="blank" id="text16">
                         КТ органов брюшной полости 1
                     </a>
                 </li>
                 <li class="document-list__item">
-                    <a href="img/docs/КТ_органів_черевної_порожнини_2.jpg" target="blank" id="text19">
+                    <a href="{{ asset('img/docs/КТ_органів_черевної_порожнини_2.jpg') }}" target="blank" id="text17">
                         КТ органов брюшной полости 2
                     </a>
                 </li>
                 <li class="document-list__item">
-                    <a href="img/docs/Направлення на гістологію.jpg" target="blank" id="text20">
+                    <a href="{{ asset('img/docs/Направлення на гістологію.jpg') }}" target="blank" id="text18">
                         Направление на гистологию
-                    </a>
-                </li>
-                <li class="document-list__item">
-                    <a href="img/docs/Реквізити картки для грн.jpg" target="blank" id="text21">
-                        Реквизиты карты для грн
                     </a>
                 </li>
             </ul>
         </div>
 
         <div class="contacts panel-bordered">
-            <h2 id="text22">Контакты Ольги, дочери Ирины Васильевны:</h2>
+            <h2 id="text19">Контакты Ольги, дочери Ирины Васильевны:</h2>
 
             <ul class="contacts-list">
                 <li class="contacts-list__item">
@@ -176,10 +175,8 @@
 </section>
 
 <div class="socials">
-    <a href="#" class="socials__item socials__item_vkontakte"><span class="icon icon-social-vkontakte"></span></a>
-    <a href="#" class="socials__item socials__item_google"><span class="icon icon-social-google"></span></a>
+    <a href="mailto:olhaisko26@gmail.com" class="socials__item socials__item_google"><span class="icon icon-social-google"></span></a>
     <a href="#" class="socials__item socials__item_facebook"><span class="icon icon-social-facebook"></span></a>
-    <a href="#" class="socials__item socials__item_twitter"><span class="icon icon-social-twitter"></span></a>
 </div>
 
 <div class="modal fade" id="banking1" tabindex="-1" role="dialog" aria-labelledby="banking1Title" aria-hidden="true">
@@ -191,7 +188,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <p id="text11">
+                <p id="text20">
                     Одержувач – Ісько Ольга Сергіївна; РАХУНОК 29244825509100; БАНК ОДЕРЖУВАЧА АТ КБ «ПРИВАТБАНК», КИЇВ, Україна; ЄДРПОУ одержувача 14360570; ЄДРПОУ банку 14360570; МФО 305299; ПРИЗНАЧЕННЯ ПЛАТЕЖУ 5168755629111911, ІСЬКО ОЛЬГА СЕРГІЇВНА.
                 </p>
             </div>
@@ -208,7 +205,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <p id="text12">
+                <p id="text21">
                     BENEFICIARY: ISKO OLHA, 03058, Ukraine, c. Kyiv, st. Borshchahivska
                     IBAN: UA173052990005168745013013161
                     ACCOUNT: 5168745013013161

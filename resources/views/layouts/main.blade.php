@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta property="og:image" content="path/to/image.jpg">
+    <meta http-equiv="Cache-Control" content="no-cache">
    
     <meta name="theme-color" content="#000">
     <meta name="msapplication-navbutton-color" content="#000">
@@ -34,16 +35,16 @@
 <header>
     <ul class="header-list">
         @if(url()->current() == env('APP_URL'))
-            <li><a href="#top" class="header-list__item">Главная</a></li>
-            <li><a href="#main-form" class="header-list__item">Реквизиты</a></li>
-            <li><a href="#info" class="header-list__item">Контакты</a></li>  
+            <li><a href="#top" class="header-list__item" id="top1">Главная</a></li>
+            <li><a href="#main-form" class="header-list__item" id="top2">Реквизиты</a></li>
+            <li><a href="#info" class="header-list__item" id="top3">Контакты</a></li>  
         @else
-            <li><a href="{{ env('APP_URL') }}" class="header-list__item">Главная</a></li>
-            <li><a href="{{ env('APP_URL') . '#main-form' }}" class="header-list__item">Реквизиты</a></li>
-            <li><a href="{{ env('APP_URL') . '#info' }}" class="header-list__item">Контакты</a></li>
+            <li><a href="{{ env('APP_URL') }}" class="header-list__item" id="top1">Главная</a></li>
+            <li><a href="{{ env('APP_URL') . '#main-form' }}" class="header-list__item" id="top2">Реквизиты</a></li>
+            <li><a href="{{ env('APP_URL') . '#info' }}" class="header-list__item" id="top3">Контакты</a></li>
         @endif
         
-        <li><a href="{{ url('/blog') }}" class="header-list__item">Блог</a></li>
+        <li><a href="{{ url('/blog') }}" class="header-list__item" id="top4">Блог</a></li>
     </ul>
 
     <div class="form-group">
@@ -51,6 +52,7 @@
             <option id="lang-ru">Русский</option>
             <option id="lang-ua">Українська</option>
             <option id="lang-en">English</option>
+            <option id="lang-es">Español</option>
         </select>
     </div>
 </header>
@@ -60,6 +62,6 @@
 </body>
 </html>
 
-<script src="js/langs.js"></script>
+<script src="{{ asset('js/langs.js') }}"></script>
 
 @yield('scripts')
