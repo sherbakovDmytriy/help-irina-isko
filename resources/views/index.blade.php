@@ -29,7 +29,7 @@
     
     <form>
         <span style="margin-left: 40%;">
-            <a href="{{ asset('img/docs/Реквізити картки для грн.pdf') }}" target="blank" id="text6">Реквизиты карты для грн</a>
+            <a href="{{ asset('img/docs/Rekvizit.pdf') }}" target="blank" id="text6">Реквизиты карты для грн</a>
         </span>
         <br><br>
         <!-- <h2 id="text6">Vix et vocibus suavitate incorrupte, elitr labitur vix ex</h2> -->
@@ -120,32 +120,32 @@
 
             <ul class="document-list">
                 <li class="document-list__item" >
-                    <a href="{{ asset('img/docs/Виписка з лікарні_1.pdf') }}" target="blank"  id="text13">
+                    <a href="{{ asset('img/docs/vipiska1.pdf') }}" target="blank"  id="text13">
                         Выписка из больницы 1
                     </a>
                 </li>
                 <li class="document-list__item">
-                    <a href="{{ asset('img/docs/Виписка з лікарні_2.pdf') }}" target="blank" id="text14">
+                    <a href="{{ asset('img/docs/vipiska2.pdf') }}" target="blank" id="text14">
                         Выписка из больницы 2
                     </a>
                 </li>
                 <li class="document-list__item">
-                    <a href="{{ asset('img/docs/КТ_головного мозку.pdf') }}" target="blank" id="text15">
+                    <a href="{{ asset('img/docs/KTGlavnogoMozga.pdf') }}" target="blank" id="text15">
                         КТ головного мозга
                     </a>
                 </li>
                 <li class="document-list__item">
-                    <a href="{{ asset('img/docs/КТ_органів_черевної_порожнини_1.pdf') }}" target="blank" id="text16">
+                    <a href="{{ asset('img/docs/KTOrganivCHerevnoiPorognini1.pdf') }}" target="blank" id="text16">
                         КТ органов брюшной полости 1
                     </a>
                 </li>
                 <li class="document-list__item">
-                    <a href="{{ asset('img/docs/КТ_органів_черевної_порожнини_2.pdf') }}" target="blank" id="text17">
+                    <a href="{{ asset('img/docs/KTOrganivCHerevnoiPorognini2.pdf') }}" target="blank" id="text17">
                         КТ органов брюшной полости 2
                     </a>
                 </li>
                 <li class="document-list__item">
-                    <a href="{{ asset('img/docs/Направлення на гістологію.pdf') }}" target="blank" id="text18">
+                    <a href="{{ asset('img/docs/NapravlennaNaGistologiu.pdf') }}" target="blank" id="text18">
                         Направление на гистологию
                     </a>
                 </li>
