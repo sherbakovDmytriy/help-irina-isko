@@ -175,8 +175,12 @@
 </section>
 
 <div class="socials">
-    <a href="mailto:olhaisko26@gmail.com" class="socials__item socials__item_google"><span class="icon icon-social-google"></span></a>
-    <a href="#" class="socials__item socials__item_facebook"><span class="icon icon-social-facebook"></span></a>
+    <a href="mailto:olhaisko26@gmail.com" class="socials__item socials__item_google">
+        <span class="icon icon-social-google"></span>
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=100017221744416" class="socials__item socials__item_facebook">
+        <span class="icon icon-social-facebook"></span>
+    </a>
 </div>
 
 <div class="modal fade" id="banking1" tabindex="-1" role="dialog" aria-labelledby="banking1Title" aria-hidden="true">
