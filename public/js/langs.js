@@ -5,6 +5,7 @@ langs.addEventListener('change', function() {
     else if(langs.value == 'Русский' ) setLengRU();
     else if(langs.value == 'English' ) setLengEN();
     else if(langs.value == 'Español' ) setLengES();
+    else if(langs.value == 'Deutsch' ) setLengDE();
 });
 
 function setLengUA(){
@@ -68,8 +69,8 @@ function setLengEN(){
     document.getElementById("top4").innerHTML = "Blog";
 
     document.getElementById("text1").innerHTML = "Good afternoon!";
-    document.getElementById("text2").innerHTML = "Hello, my name is Irina and I am sick with breast cancer.";
-    document.getElementById("text3").innerHTML = "The diagnosis was made absolutely by accident - at the end of June this year I was hospitalized in the clinic due to mechanical jaundice and underwent an operation for stenting the bile duct of the liver. Before discharge from the hospital, the doctors decided to make sure everything was in order and to do a CT scan, on which a cancer tumor was found. After the operation was performed to remove it, but for a full recovery it is necessary to undergo several courses of chemotherapy. The cost of drugs significantly exceeds the modest budget of our family, the earnings of a husband and daughter are not enough to purchase expensive drugs. I appeal to everyone who is not indifferent and ask for your help, because any amount can give me a chance to recover and a full life, which is so beautiful and amazing!";
+    document.getElementById("text2").innerHTML = "My name is Irina and I have breast cancer.";
+    document.getElementById("text3").innerHTML = "It was diagnosed by accident at the end of June 2018 when I was at hospital due to the other reasons. After the certain treatment, the doctors decided to make sure, everything was in order and did a CT scan, on which a cancer tumor was found. The operation is already done but for the full recovery, it is necessary to go through several courses of chemotherapy. The cost of drugs significantly exceeds our family budget. So now, I ask for your help, because any amount of money can give me a chance to recover and live a full life, which is so beautiful and amazing!";
     document.getElementById("text4").innerHTML = "Sincerely, Irina Isko.";
     document.getElementById("text5").innerHTML = "Requisites";
     document.getElementById("text6").innerHTML = "Requisites of the card for UAH";
@@ -114,4 +115,31 @@ function setLengES(){
     document.getElementById("text17").innerHTML = "TC de los órganos de la cavidad abdominal 2";
     document.getElementById("text18").innerHTML = "Dirección de histología";
     document.getElementById("text19").innerHTML = "Contactos Olga, hija de Irina Vasilyevna:";
+}
+
+function setLengDE() {
+    document.getElementById("top1").innerHTML = "Zuhause";
+    document.getElementById("top2").innerHTML = "Details";
+    document.getElementById("top3").innerHTML = "Kontaktieren Sie uns";
+    document.getElementById("top4").innerHTML = "Blog";
+
+    document.getElementById("text1").innerHTML = "Guten Tag!";
+    document.getElementById("text2").innerHTML = "Ich heiße Irina und ich habe Brustkrebs.";
+    document.getElementById("text3").innerHTML = "Der Krebs wurde zufällig gefunden - Ende Juni wurde ich in die Klinik wegen der subhepatischen (mechanischen) Gelbsucht hospitalisiert  und hatte eine Operation der Stentangioplastie der Gallengänge der  Leber. Vor der Krankenhausentlassung wollten  sich die Ärzte  vergewissern, dass alles in Ordnung ist und haben Computertomografie gemacht,  bei  der  es  aber ein Krebs Tumor festgestellt wurde.  Der Tumor wurde entfernt, aber  ich brauche jetzt  für die volle Genesung einige Kurse von Chemotherapie.  Für die Medikamente brauche ich viel mehr Geld, als unsere ganze Familie verdient,  die Löhne vom Mann und der Tochter reichen nicht um die teuren Arzneien zu kaufen.  Ich wende mich zu allen nicht gleichgültigen und bitte um die Hilfe, weil jede Summe mir eine Chance gibt auf die Genesung und das vollwertiges Leben, das so schön und wunderbar ist.";
+    document.getElementById("text4").innerHTML = "Hochachtungsvoll, Irina Isko.";
+    document.getElementById("text5").innerHTML = "Details";
+    document.getElementById("text6").innerHTML = "Kartendetails für UAH";
+    // document.getElementById("text7").innerHTML = "";
+    document.getElementById("text8").innerHTML = "In UAH";
+    document.getElementById("text9").innerHTML = "In USD";
+    document.getElementById("text10").innerHTML = "In EUR";
+    document.getElementById("text11").innerHTML = "Kontaktieren Sie uns";
+    document.getElementById("text12").innerHTML = "Dokumente";
+    document.getElementById("text13").innerHTML = "Entlassung aus dem Krankenhaus 1";
+    document.getElementById("text14").innerHTML = "Entlassung aus dem Krankenhaus 2";
+    document.getElementById("text15").innerHTML = "Gehirn CT";
+    document.getElementById("text16").innerHTML = "CT-Scan der Bauchorgane 1";
+    document.getElementById("text17").innerHTML = "CT-Scan der Bauchorgane 2";
+    document.getElementById("text18").innerHTML = "Verweis auf Histologie";
+    document.getElementById("text19").innerHTML = "Kontakte von Olga, Tochter von Irina Vasilievna:";
 }

@@ -53,6 +53,7 @@
             <option id="lang-ua">Українська</option>
             <option id="lang-en">English</option>
             <option id="lang-es">Español</option>
+            <option id="lang-de">Deutsch</option>
         </select>
     </div>
 </header>
