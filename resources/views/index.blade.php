@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('title')
-    <title>Меня зовут Ирина и я больна раком молочной железы.</title>
+    <title>Мене звати Ірина і я хворію на рак молочної залози.</title>
 @stop
 
 
@@ -11,11 +11,11 @@
     <div class="top__image"><img src="img/1.jpg" alt="" width="100%"></div>
 
     <div class="top__info">
-        <h1 id="text1">Добрый день!</h1>
-        <h2 id="text2">Меня зовут Ирина и я больна раком молочной железы.</h2>
+        <h1 id="text1">Вітаю Вас!</h1>
+        <h2 id="text2">Мене звати Ірина і я хворію на рак молочної залози.</h2>
         
-        <p id="text3">Диагноз был поставлен абсолютно случайно – в конце июня этого года я была госпитализирована в клинику в связи с механической желтухой и перенесла операцию по стентированию желчного протока печени. Перед выпиской из больницы врачи решили удостовериться, что все в порядке и сделать КТ, на котором и обнаружили раковую опухоль. После была проведена операция по ее удалению, но для полного выздоровления необходимо пройти несколько курсов химиотерапии. Стоимость препаратов значительно превышает скромный бюджет нашей семьи, заработков мужа и дочери недостаточно для того, чтобы закупить дорогостоящие препараты. Я обращаюсь ко всем неравнодушным и прошу Вашей помощи, потому что любая сумма может дать мне шанс на выздоровление и полноценную жизнь, которая столь прекрасна и удивительна!</p>
-        <p id="text4">С уважением, Ирина Исько.</p>
+        <p id="text3">Діагноз було встановлено випадково – в кінці червня цього року я була госпіталізована в лікарню у зв’язку з механічною жовтяницею і перенесла операцію зі стенування жовчного протоку печінки. Перед випискою з лікарні лікарі вирішили впевнитись, що все в порядку і зробили КТ, на якому було виявлено ракову пухлину. Після була проведена операція з її видалення, але для одужання необхідно пройти кілька курсів хіміотерапії. Вартість препаратів значно перевищує скромний бюджет нашої родини, заробітної плати чоловіка і доньки недостатньо для того, щоб закупити дорогі препарати. Я звертаюсь до всіх небайдужих і прошу Вашої допомоги, тому що будь-яка сума може дати мені шанс на одужання і повноцінне життя, яке настільки прекрасне і дивовижне!</p>
+        <p id="text4">З повагою, Ірина Ісько.</p>
         
         <!-- <div class="button button_green">
             <span id="text5">пожертвовать</span>
@@ -25,11 +25,11 @@
 </section>
 
 <section class="main-form content content_sm" id="main-form">
-    <h2 class="section__header" id="text5">Реквизиты</h2>
+    <h2 class="section__header" id="text5">Реквізити</h2>
     
     <form>
         <span style="margin-left: 40%;">
-            <a href="{{ asset('img/docs/Rekvizit.pdf') }}" target="blank" id="text6">Реквизиты карты для грн</a>
+            <a href="{{ asset('img/docs/Rekvizit.pdf') }}" target="blank" id="text6">Реквізити картки для грн</a>
         </span>
         <br><br>
         <!-- <h2 id="text6">Vix et vocibus suavitate incorrupte, elitr labitur vix ex</h2> -->
@@ -97,11 +97,11 @@
         <ul class="contacts-list list_inline">
             <li class="contacts-list__item" data-toggle="modal" data-target="#banking1">
                 <div class="icon-border"><span class="sign">₴</span></div>
-                <span class="banking-link" id="text8">В гривне</span>
+                <span class="banking-link" id="text8">У гривні</span>
             </li>
             <li class="contacts-list__item" data-toggle="modal" data-target="#banking2">
                 <div class="icon-border"><span class="sign">$</span></div>
-                <span class="banking-link" id="text9">В долларах</span>
+                <span class="banking-link" id="text9">У долларах</span>
             </li>
             <li class="contacts-list__item" data-toggle="modal" data-target="#banking3">
                 <div class="icon-border"><span class="sign">€</span></div>
@@ -112,48 +112,48 @@
 </section>
 
 <section class="info content content_sm" id="info">
-    <h2 class="section__header" id="text11">Контакты</h2>
+    <h2 class="section__header" id="text11">Контакти</h2>
 
     <div class="flex flex_between">
         <div class="documents panel-bordered">
-            <h2 id="text12">Документы</h2>
+            <h2 id="text12">Документи</h2>
 
             <ul class="document-list">
                 <li class="document-list__item" >
                     <a href="{{ asset('img/docs/vipiska1.pdf') }}" target="blank"  id="text13">
-                        Выписка из больницы 1
+                        Виписка з лікарні 1
                     </a>
                 </li>
                 <li class="document-list__item">
                     <a href="{{ asset('img/docs/vipiska2.pdf') }}" target="blank" id="text14">
-                        Выписка из больницы 2
+                        Виписка з лікарні 2
                     </a>
                 </li>
                 <li class="document-list__item">
                     <a href="{{ asset('img/docs/KTGlavnogoMozga.pdf') }}" target="blank" id="text15">
-                        КТ головного мозга
+                        КТ головного мозку
                     </a>
                 </li>
                 <li class="document-list__item">
                     <a href="{{ asset('img/docs/KTOrganivCHerevnoiPorognini1.pdf') }}" target="blank" id="text16">
-                        КТ органов брюшной полости 1
+                        КТ органів черевної порожнини 1
                     </a>
                 </li>
                 <li class="document-list__item">
                     <a href="{{ asset('img/docs/KTOrganivCHerevnoiPorognini2.pdf') }}" target="blank" id="text17">
-                        КТ органов брюшной полости 2
+                        КТ органів черевної порожнини 2
                     </a>
                 </li>
                 <li class="document-list__item">
                     <a href="{{ asset('img/docs/NapravlennaNaGistologiu.pdf') }}" target="blank" id="text18">
-                        Направление на гистологию
+                        Направлення на гістологію
                     </a>
                 </li>
             </ul>
         </div>
 
         <div class="contacts panel-bordered">
-            <h2 id="text19">Контакты Ольги, дочери Ирины Васильевны:</h2>
+            <h2 id="text19">Контакти Ольги, доньки Ірини Василівни:</h2>
 
             <ul class="contacts-list">
                 <li class="contacts-list__item">

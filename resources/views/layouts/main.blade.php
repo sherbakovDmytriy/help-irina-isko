@@ -35,13 +35,13 @@
 <header>
     <ul class="header-list">
         @if(url()->current() == env('APP_URL'))
-            <li><a href="#top" class="header-list__item" id="top1">Главная</a></li>
-            <li><a href="#main-form" class="header-list__item" id="top2">Реквизиты</a></li>
-            <li><a href="#info" class="header-list__item" id="top3">Контакты</a></li>  
+            <li><a href="#top" class="header-list__item" id="top1">Головна</a></li>
+            <li><a href="#main-form" class="header-list__item" id="top2">Реквізити</a></li>
+            <li><a href="#info" class="header-list__item" id="top3">Контакти</a></li>  
         @else
-            <li><a href="{{ env('APP_URL') }}" class="header-list__item" id="top1">Главная</a></li>
-            <li><a href="{{ env('APP_URL') . '#main-form' }}" class="header-list__item" id="top2">Реквизиты</a></li>
-            <li><a href="{{ env('APP_URL') . '#info' }}" class="header-list__item" id="top3">Контакты</a></li>
+            <li><a href="{{ env('APP_URL') }}" class="header-list__item" id="top1">Головна</a></li>
+            <li><a href="{{ env('APP_URL') . '#main-form' }}" class="header-list__item" id="top2">Реквізити</a></li>
+            <li><a href="{{ env('APP_URL') . '#info' }}" class="header-list__item" id="top3">Контакти</a></li>
         @endif
         
         <li><a href="{{ url('/blog') }}" class="header-list__item" id="top4">Блог</a></li>
@@ -49,8 +49,8 @@
 
     <div class="form-group">
         <select class="form-control" id="exampleFormControlSelect1">
-            <option id="lang-ru">Русский</option>
             <option id="lang-ua">Українська</option>
+            <option id="lang-ru">Русский</option>
             <option id="lang-en">English</option>
             <option id="lang-es">Español</option>
             <option id="lang-de">Deutsch</option>

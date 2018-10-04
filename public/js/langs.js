@@ -32,7 +32,7 @@ function setLengUA(){
     document.getElementById("text16").innerHTML = "КТ органів черевної порожнини 1";
     document.getElementById("text17").innerHTML = "КТ органів черевної порожнини 2";
     document.getElementById("text18").innerHTML = "Направлення на гістологію";
-    document.getElementById("text19").innerHTML = "Контакти Ольги, доньки Ірини Василівни";
+    document.getElementById("text19").innerHTML = "Контакти Ольги, доньки Ірини Василівни:";
 }
 
 function setLengRU(){
