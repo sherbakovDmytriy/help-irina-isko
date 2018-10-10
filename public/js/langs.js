@@ -20,6 +20,8 @@ function setLengUA(){
     document.getElementById("text4").innerHTML = "З повагою, Ірина Ісько.";
     document.getElementById("text5").innerHTML = "Реквізити";
     document.getElementById("text6").innerHTML = "Реквізити картки для грн";
+    document.getElementById("text6-1").innerHTML = "18 хімій по 15 тисяч";
+    document.getElementById("text6-2").innerHTML = "Потрібно зібрати:";
     // document.getElementById("text7").innerHTML = "";
     document.getElementById("text8").innerHTML = "У гривні";
     document.getElementById("text9").innerHTML = "У долларах";
@@ -47,6 +49,8 @@ function setLengRU(){
     document.getElementById("text4").innerHTML = "С уважением, Ирина Исько.";
     document.getElementById("text5").innerHTML = "Реквизиты";
     document.getElementById("text6").innerHTML = "Реквизиты карты для грн";
+    document.getElementById("text6-1").innerHTML = "18 химий по 15 тысяч";
+    document.getElementById("text6-2").innerHTML = "Нужно собрать:";
     // document.getElementById("text7").innerHTML = "";
     document.getElementById("text8").innerHTML = "В гривне";
     document.getElementById("text9").innerHTML = "В долларах";
@@ -74,6 +78,8 @@ function setLengEN(){
     document.getElementById("text4").innerHTML = "Sincerely, Irina Isko.";
     document.getElementById("text5").innerHTML = "Requisites";
     document.getElementById("text6").innerHTML = "Requisites of the card for UAH";
+    document.getElementById("text6-1").innerHTML = "18 chemists for 15 thousand";
+    document.getElementById("text6-2").innerHTML = "Must be collected:";
     // document.getElementById("text7").innerHTML = "";
     document.getElementById("text8").innerHTML = "In UAH";
     document.getElementById("text9").innerHTML = "In dollars";
@@ -102,6 +108,8 @@ function setLengES(){
     document.getElementById("text4").innerHTML = "Atentamente, Iryna Isko.";
     document.getElementById("text5").innerHTML = "Requisitos";
     document.getElementById("text6").innerHTML = "Requisitos de la tarjeta para UAH";
+    document.getElementById("text6-1").innerHTML = "18 químicos por 15 mil";
+    document.getElementById("text6-2").innerHTML = "Necesidad de recoger:";
     // document.getElementById("text7").innerHTML = "";
     document.getElementById("text8").innerHTML = "En UAH";
     document.getElementById("text9").innerHTML = "En dolares";
@@ -129,6 +137,8 @@ function setLengDE() {
     document.getElementById("text4").innerHTML = "Hochachtungsvoll, Irina Isko.";
     document.getElementById("text5").innerHTML = "Details";
     document.getElementById("text6").innerHTML = "Kartendetails für UAH";
+    document.getElementById("text6-1").innerHTML = "18 Chemie für 15 Tausend";
+    document.getElementById("text6-2").innerHTML = "Müssen sammeln:";
     // document.getElementById("text7").innerHTML = "";
     document.getElementById("text8").innerHTML = "In UAH";
     document.getElementById("text9").innerHTML = "In USD";

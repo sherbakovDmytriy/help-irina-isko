@@ -16,11 +16,6 @@
         
         <p id="text3">Діагноз було встановлено випадково – в кінці червня цього року я була госпіталізована в лікарню у зв’язку з механічною жовтяницею і перенесла операцію зі стенування жовчного протоку печінки. Перед випискою з лікарні лікарі вирішили впевнитись, що все в порядку і зробили КТ, на якому було виявлено ракову пухлину. Після була проведена операція з її видалення, але для одужання необхідно пройти кілька курсів хіміотерапії. Вартість препаратів значно перевищує скромний бюджет нашої родини, заробітної плати чоловіка і доньки недостатньо для того, щоб закупити дорогі препарати. Я звертаюсь до всіх небайдужих і прошу Вашої допомоги, тому що будь-яка сума може дати мені шанс на одужання і повноцінне життя, яке настільки прекрасне і дивовижне!</p>
         <p id="text4">З повагою, Ірина Ісько.</p>
-        
-        <!-- <div class="button button_green">
-            <span id="text5">пожертвовать</span>
-            <input type="submit" value="">
-        </div> -->
     </div>
 </section>
 
@@ -32,45 +27,17 @@
             <a href="{{ asset('img/docs/Rekvizit.pdf') }}" target="blank" id="text6">Реквізити картки для грн</a>
         </span>
         <br><br>
-        <!-- <h2 id="text6">Vix et vocibus suavitate incorrupte, elitr labitur vix ex</h2> -->
-        <!-- <div class="form-group">
+        <h2 id="text6-1" class="text-center">18 хімій по 15 тисяч</h2>
+        <br>
+         <div class="form-group">
             <div class="text-row">
-                <span id="text6">Нужно собрать:</span>
-                <span>179 000 грн</span>
+                <span id="text6-2">Потрібно зібрати:</span>
+                <span>270 000 UAH</span>
             </div>
             <div class="progress">
-                <div class="progress-bar bg-success" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg-success" role="progressbar" style="width: 1%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-        </div> -->
-
-        <!-- <div class="form-group">
-            <div class="form-offertory">
-                <p id="text8">Введите сумму пожертвования:</p>
-
-                <div class="flex flex_nowrap">
-                    <input type="text" class="form-control input-summ" id="inputAddress" placeholder="">
-                    <select class="form-control select-wallet" id="exampleFormControlSelect1">
-                        <option>ГРН</option>
-                        <option>USD</option>
-                        <option>РУБ</option>
-                    </select>
-                </div>
-            </div>
-        </div> -->
-        
-        <!-- <div class="form-group">
-            <div class="flex flex_between">
-                <div class="button button_green">
-                    <span id="text9">пожертвовать</span>
-                    <input type="submit" value="">
-                </div>
-
-                <div class="button button_blue">
-                    <span id="text10">реквизиты банка</span>
-                    <input type="submit" value="">
-                </div>
-            </div>
-        </div> -->
+        </div>
 
         <div class="modal fade" id="banking3" tabindex="-1" role="dialog" aria-labelledby="banking3Title" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
