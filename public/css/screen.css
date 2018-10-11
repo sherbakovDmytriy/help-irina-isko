@@ -465,6 +465,34 @@ h2 {
   color: #dd4b39;
   border-color: #dd4b39;
 }
+.socials__item_telegram {
+  background-color: #0088cc;
+}
+.socials__item_telegram span {
+  display: inline-flex;
+}
+/* line 379, ../sass/screen.scss */
+.socials__item_telegram:hover {
+  background-color: #fff;
+  border-color: #0088cc;
+}
+.socials__item_telegram:hover path {
+  fill: #0088cc;
+}
+.socials__item_viber {
+  background-color: #8f5db7;
+}
+.socials__item_viber span {
+  display: inline-flex;
+}
+/* line 379, ../sass/screen.scss */
+.socials__item_viber:hover {
+  background-color: #fff;
+  border-color: #8f5db7;
+}
+.socials__item_viber:hover path {
+  fill: #8f5db7;
+}
 /* line 386, ../sass/screen.scss */
 .socials__item_facebook {
   background-color: #3b5998;
