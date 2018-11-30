@@ -27,15 +27,15 @@
             <a href="{{ asset('img/docs/Rekvizit.pdf') }}" target="blank" id="text6">Реквізити картки для грн</a>
         </span>
         <br><br>
-        <h2 id="text6-1" class="text-center">18 хімій по 15 тисяч</h2>
+        <h2 id="text6-1" class="text-center">4 хімії по 16 тисяч</h2>
         <br>
          <div class="form-group">
             <div class="text-row">
                 <span id="text6-2">Потрібно зібрати:</span>
-                <span>270 000 UAH</span>
+                <span>64 000 UAH</span>
             </div>
             <div class="progress">
-                <div class="progress-bar bg-success" role="progressbar" style="width: 1%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="12800" aria-valuemin="0" aria-valuemax="64000">12 800</div>
             </div>
         </div>
 
