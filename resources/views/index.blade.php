@@ -35,7 +35,7 @@
                 <span>64 000 UAH</span>
             </div>
             <div class="progress">
-                <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="12800" aria-valuemin="0" aria-valuemax="64000">12 800</div>
+                <div class="progress-bar bg-success" role="progressbar" style="width: 48.28%" aria-valuenow="30900" aria-valuemin="0" aria-valuemax="64000">30 900</div>
             </div>
         </div>
 
